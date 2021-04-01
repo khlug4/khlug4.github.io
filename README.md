@@ -4,3 +4,19 @@
 - 구자웅
 - 김미송
 - 한나영
+
+
+<hr/>
+아래 처럼 자기 이름으로 폴더를 만들어 주세요.  
+  
+.  
++--hw1  
+| +--index.html  
+| +-- Gu_JaUng  
+| | +-- index.html  
+| +-- name2  
+| +-- name3  
+| +-- name4  
+| +-- name5  
++-- index.html  
+
