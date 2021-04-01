@@ -9,14 +9,16 @@
 <hr/>
 아래 처럼 자기 이름으로 폴더를 만들어 주세요.  
   
+```
 .  
-+--hw1  
-|&nbsp;&nbsp;+--index.html  
-|&nbsp;&nbsp;+-- Gu_JaUng  
-|&nbsp;&nbsp;|&nbsp;+-- index.html  
-|&nbsp;&nbsp;+-- name2  
-|&nbsp;&nbsp;+-- name3  
-|&nbsp;&nbsp;+-- name4  
-|&nbsp;&nbsp;+-- name5  
++-- hw1  
+|  +-- index.html  
+|  +-- Gu_JaUng  
+|  |  +-- index.html  
+|  +-- name2  
+|  +-- name3  
+|  +-- name4  
+|  +-- name5  
 +-- index.html  
 
+```
