@@ -4,7 +4,7 @@
 - 구자웅
 - 김미송
 - 한나영
-
+- 황인성
 
 <hr/>
 아래 처럼 자기 이름으로 폴더를 만들어 주세요.  
@@ -15,7 +15,7 @@
 |  +-- index.html  
 |  +-- Gu_JaUng  
 |  |  +-- index.html  
-|  +-- name2  
+|  +-- Hwang_insung  
 |  +-- name3  
 |  +-- name4  
 |  +-- name5  
