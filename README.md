@@ -16,7 +16,8 @@
 |  +-- Gu_JaUng  
 |  |  +-- index.html  
 |  +-- Hwang_insung
-|  |  +-- test2.html
+|  |  +-- index.html
+|  |  +-- move.html
 |  +-- name3  
 |  +-- name4  
 |  +-- name5  
