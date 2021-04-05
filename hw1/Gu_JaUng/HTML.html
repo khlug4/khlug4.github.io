@@ -4,77 +4,88 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>구자웅의 페이지</title>
+    <style>
+        #a { text-align: center; width: 100%; }
+    </style>
 </head>
 <body>
     <h1>HTML 태그 연습장 입니다.</h1>
-    <a href="../">이전으로  </a><a href="../../index.html">처음으로</a>
-    <br>
-    <p>이것은 단락입니다. p태그를 사용합니다.</p>
-    <br>
-    <img src="img.jpg" height="300" alt="이미지입니다." title="이미지입니다.">
-    <br>
-    <table border="2">
-        <tr>
-            <td>숫자</td> <td>한글</td> <td>알파벳</td>
-        </tr>
-        <tr>
-            <td>1</td>  <td>ㄱ</td>  <td >A</td>
-        </tr>
-        <tr>
-            <td>2</td>  <td>ㄴ</td>  <td>B</td>
-        </tr>
-        <tr>
-            <td>...</td>  <td>...</td>  <td>...</td>
-        </tr>
-    </table>
-    <br>
-    <p>리스트</p>
-    <ol>
-        <li><a href="1.html">요소1</a></li>
-        <li><a href="2.html">요소2<a/></li>
-        <li><a href="3.html">요소3</a></li>
-        <li><a href="4.html">요소4</a></li>
-    </ol>
-    <ul>
-        <li><a href="1.html">요소1</a></li>
-        <li><a href="2.html">요소2<a/></li>
-        <li><a href="3.html">요소3</a></li>
-        <li><a href="4.html">요소4</a></li>
-    </ul>
-    <br>
-    <form action="http://localhost/login.php">
-        <p>써봤자 : <input type="text" name="id"></p>
-        <p>아무것도 : <input type="password" name="pwd"></p>
-        <p>안 됨 : <input type="text" name="address"></p>
-        <input type="submit">
-    </form>
-    <form action="http://localhost/color.php">
-        <h1>색</h1>
-        <select name="color">
-            <option value="red">붉은색</option>
-            <option value="black">검은색</option>
-            <option value="blue">파란색</option>
-        </select>
-        <h1>색</h1>
-        <select name="color2" multiple>
-            <option value="red">붉은색</option>
-            <option value="black">검은색</option>
-            <option value="blue">파란색</option>
-        </select>
-        <input type="submit">
-    </form>
-    <br>
-    <form action="http://localhost/form.php">
-        <input type="text">
-        <input type="submit" value="버튼">
-        <input type="button" value="버튼2" onclick="alert('hello world')">
-        <input type="reset">
-    </form>
-    <br>
-    <br>
+    <a href="../index.html">이전으로  </a><a href="../../index.html">처음으로</a>
+    <div>
+        <table border="1" id="a">
+            <tr>
+                <td><p>이것은 단락입니다. p태그를 사용합니다.</p></td>
+                <td><img src="img.jpg" height="300" alt="이미지입니다." title="이미지입니다."></td>
+            </tr>
+            <tr>
+                <td>
+                    <table border="2">
+                        <tr>
+                            <td>숫자</td> <td>한글</td> <td>알파벳</td>
+                        </tr>
+                        <tr>
+                            <td>1</td>  <td>ㄱ</td>  <td >A</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>  <td>ㄴ</td>  <td>B</td>
+                        </tr>
+                        <tr>
+                            <td>...</td>  <td>...</td>  <td>...</td>
+                        </tr>
+                    </table>
+                </td>
+                <td>
+                    <p>리스트</p>
+                    <ol>
+                        <li><a href="1.html">요소1</a></li>
+                        <li><a href="2.html">요소2<a/></li>
+                        <li><a href="3.html">요소3</a></li>
+                        <li><a href="4.html">요소4</a></li>
+                    </ol>
+                    <ul>
+                        <li><a href="1.html">요소1</a></li>
+                        <li><a href="2.html">요소2<a/></li>
+                        <li><a href="3.html">요소3</a></li>
+                        <li><a href="4.html">요소4</a></li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <form action="">
+                        <p>써봤자 : <input type="text" name="id"></p>
+                        <p>아무것도 : <input type="password" name="pwd"></p>
+                        <p>안 됨 : <input type="text" name="address"></p>
+                        <input type="submit">
+                    </form>
+                    <form action="">
+                        <input type="text">
+                        <input type="submit" value="버튼">
+                        <input type="button" value="버튼2" onclick="alert('hello world')">
+                        <input type="reset">
+                    </form>
+                </td>
+                <td>
+                    <form action="">
+                        <select name="color">
+                            <option value="red">빨간색</option>
+                            <option value="black">검은색</option>
+                            <option value="blue">파란색</option>
+                        </select>
+                        <select name="color2" multiple>
+                            <option value="red">빨간색</option>
+                            <option value="black">검은색</option>
+                            <option value="blue">파란색</option>
+                        </select>
+                        <input type="submit">
+                    </form>
+                </td>
+            </tr>
+        </table>
+    </div>
+    
     <p>로그인 안 됨</p>
     <iframe src="https://khlug.org/group/73705" width="100%" height="1000" frameborder="1">쿠러그</iframe>
-
 
 </body>
 </html>
