@@ -9,7 +9,6 @@
 <hr/>
 아래 처럼 자기 이름으로 폴더를 만들어 주세요.  
   
-```
 .  
 +-- hw1  
 |  +-- index.html  
@@ -18,9 +17,10 @@
 |  +-- Hwang_insung
 |  |  +-- index.html
 |  |  +-- move.html
-|  +-- name3  
+|  +-- Hannayoung 
+|  |  +-- index.html
+|  |  +-- next_page 
 |  +-- name4  
 |  +-- name5  
 +-- index.html  
 
-```
