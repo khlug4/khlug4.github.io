@@ -8,6 +8,7 @@
 >>>>>>> Stashed changes
 - 한나영
 - 황인성
+-노현
 
 <hr/>
 아래 처럼 자기 이름으로 폴더를 만들어 주세요.  
@@ -24,7 +25,10 @@
 |  +-- Hannayoung 
 |  |  +-- index.html
 |  |  +-- next_page 
-|  +-- name4  
+|  +-- Roh_Hyun
+|  |  +-- index.html
+|  |  +-- VideoPage
+
 |  +-- name5  
 +-- index.html  
 ```
