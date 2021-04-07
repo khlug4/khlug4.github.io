@@ -26,6 +26,6 @@
 |  |  +-- index.html
 |  |  +-- VideoPage
 
-|  +-- name5  
-+-- index.html  
-```
+|  +-- Kim_Misong 
+|  |  +-- index.html  
+|  |  +-- test.html
